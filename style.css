@@ -1,0 +1,15 @@
+.moveImage{
+     animation: MoveCompany 10s infinite linear;
+}
+
+@keyframes MoveCompany {
+     0%{
+          top: 0;
+     }
+     100%{
+          top: -50%;
+     }
+}
+.backGround{
+     background-size: 100% 100%;
+}
